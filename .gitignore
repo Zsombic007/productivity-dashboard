@@ -138,3 +138,38 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Python / backend (added to prepare for future backend)
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Packaging / build
+pip-wheel-metadata/
+pip-selfcheck.json
+build/
+dist/
+*.egg-info/
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local DBs
+*.sqlite3
+*.db
+*.db-journal
+
+# OS
+.DS_Store
+Thumbs.db
