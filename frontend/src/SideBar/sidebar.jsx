@@ -19,9 +19,6 @@ export default function SideBar(){
           <button className={`${sidebarOpen ? 'py-3 text-3xl' : 'p-4 text-2xl'} text-white hover:bg-blue-800`}><FontAwesomeIcon icon={faBurger} /> {sidebarOpen && 'Kaja'}</button>
           <button className={`${sidebarOpen ? 'py-3 text-3xl' : 'p-4 text-2xl'} text-white hover:bg-blue-800`}><FontAwesomeIcon icon={faGear} /> {sidebarOpen && 'Beállitások'}</button>
         </div>
-        <div className="flex-1 flex flex-col">
-          <h1 className="light:text-black dark:text-white font-bold text-4xl p-5">Dashboard</h1>
-        </div>
       </div>
   );
 }
